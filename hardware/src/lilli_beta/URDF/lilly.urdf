@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="Lilly_Humanoid">
+    <link name="pelvis">
+        <inertial>
+            <origin xyz="" rpy="0 0 0"></origin>
+            <mass value=""></mass>
+            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"></origin>
+            <geometry>
+                <mesh filename="package://meshes/pelvis.stl"></mesh>
+            </geometry>
+            <material name="">
+                <color rgba="0.9 0.9 0.9 1.0"></color>
+            </material>
+        </visual>
+        <mass></mass>
+    </link>
+<!--    <link name="r_hip">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#pravyBok"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="r_hip_motor">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#pravyMotor"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="r_thigh">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#hornaCastPravejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="r_shin">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="dolnaCastPravejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="r_foot">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#priehlavokPravejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="l_hip">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#lavyBok"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="l_hip_motor">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#lavyMotor"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="l_thigh">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#hornaCastLavejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="l_shin">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#dolnaCastLavejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="l_foot">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#priehlavokLavejNohy"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+<!--    <link name="abs_motors">-->
+<!--        <inertial>-->
+<!--            <origin xyz="" rpy="0 0 0"></origin>-->
+<!--            <mass value=""></mass>-->
+<!--            <inertia ixx="" ixy="" ixz="" iyy="" iyz="" izz=""></inertia>-->
+<!--        </inertial>-->
+<!--        <visual>-->
+<!--            <origin xyz="0 0 0" rpy="0 0 0"></origin>-->
+<!--            <geometry>-->
+<!--                <mesh filename="#motorHrudnik"></mesh>-->
+<!--            </geometry>-->
+<!--            <material name="">-->
+<!--                <color rgba="0.9 0.9 0.9 1.0"></color>-->
+<!--            </material>-->
+<!--        </visual>-->
+<!--        <mass></mass>-->
+<!--    </link>-->
+</robot>
